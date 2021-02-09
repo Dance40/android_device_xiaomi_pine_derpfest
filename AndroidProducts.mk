@@ -13,10 +13,10 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_pine.mk
+    $(LOCAL_DIR)/derp_pine.mk
 
 
 COMMON_LUNCH_CHOICES := \
-    lineage_pine-user \
-    lineage_pine-userdebug \
-    lineage_pine-eng
+    derp_pine-user \
+    derp_pine-userdebug \
+    derp_pine-eng
