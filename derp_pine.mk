@@ -18,13 +18,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit from the common LineageOS configuration.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Inherit from device.mk
 $(call inherit-product, device/xiaomi/pine/device.mk)
 
 PRODUCT_DEVICE := pine
-PRODUCT_NAME := lineage_pine
+PRODUCT_NAME := derp_pine
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7A
 PRODUCT_MANUFACTURER := Xiaomi
